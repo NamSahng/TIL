@@ -20,7 +20,9 @@
   - Book: Christopher M. Bishop, Pattern Recognition and Machien Learning
 
 
-- SparkDG
+- Spark
+  - Big Data Analysis with Scala and Spark
+  - Heather Miller, https://www.coursera.org/learn/scala-spark-big-data
   - Book: Matei Zaharia & Bill Chambers, Spark: The Definitive Guide
   - Code: https://github.com/FVBros/Spark-The-Definitive-Guide 
   - Environment: https://databricks.com/try-databricks
