@@ -17,3 +17,6 @@ beautifulsoup4
 tqdm
 networkx
 gcc
+pyg
+pytorch==1.11.0
+torchvision==0.12.0

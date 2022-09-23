@@ -1,6 +1,6 @@
 PYTHON=3.9
 BASENAME=$(shell basename $(CURDIR))
-CONDA_CH=conda-forge defaults
+CONDA_CH=conda-forge pytorch pyg defaults
 UNAME := $(shell uname)
 ifeq ($(UNAME), Linux)
 	REQUIREMENTS=requirements.txt
@@ -13,9 +13,7 @@ env:
 	conda create -n $(BASENAME)  python=$(PYTHON)
 
 setup:
-	conda install --file requirements-gpu.txt cudatoolkit=11.3 -c pytorch
-	conda install --file $(REQUIREMENTS) $(addprefix -c ,$(CONDA_CH))
-	conda install --file requirements-pyg.txt -c pyg
+	conda install --file $(REQUIREMENTS) cudatoolkit=11.3 $(addprefix -c ,$(CONDA_CH))
 	pip install -r requirements-pip.txt	
 	
 	
