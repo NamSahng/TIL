@@ -1,3 +1,5 @@
+recsys/codes_graph/dataset
+recsys/codes_graph/enzymes
 extract_zipfiles.ipynb
 .ipynb_checkpoints
 zipfiles

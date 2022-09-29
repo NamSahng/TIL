@@ -18,3 +18,4 @@ tqdm
 networkx
 gcc
 pyg
+ogb
