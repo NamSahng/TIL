@@ -19,3 +19,4 @@ networkx
 gcc
 pyg
 ogb
+aiohttp
