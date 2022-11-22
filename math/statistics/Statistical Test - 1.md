@@ -179,9 +179,12 @@
     - ![Untitled](Statistical%20Test%20-%201%207a909a1a7dcf459e920c1f9df6f5e149/img_1.png)
 - 각 변수 간에 상관성이 있는지를 알아보기 위한 통계분석
     - ![Untitled](Statistical%20Test%20-%201%207a909a1a7dcf459e920c1f9df6f5e149/img_2.png)
+    - spearman, kendall tau는 비모수적 검정
 
 ## References
 
 ---
 
 - [https://www.statstutor.ac.uk/resources/uploaded/tutorsquickguidetostatistics.pdf](https://www.statstutor.ac.uk/resources/uploaded/tutorsquickguidetostatistics.pdf)
+
+- [https://m.blog.naver.com/libido1014/120113775017](https://m.blog.naver.com/libido1014/120113775017)
