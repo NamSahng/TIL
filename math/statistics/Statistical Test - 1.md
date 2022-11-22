@@ -174,7 +174,11 @@
     η2 = 0.010 is a small association.
     η2 = 0.059 is a medium association.
     η2 = 0.138 or larger is a large association.
-    
+
+- 그룹(명목 변수)들 사이에 차이가 있는지 알아보기 위한 통계분석
+    - ![Untitled](Statistical%20Test%20-%201%207a909a1a7dcf459e920c1f9df6f5e149/img_1.png)
+- 각 변수 간에 상관성이 있는지를 알아보기 위한 통계분석
+    - ![Untitled](Statistical%20Test%20-%201%207a909a1a7dcf459e920c1f9df6f5e149/img_2.png)
 
 ## References
 
