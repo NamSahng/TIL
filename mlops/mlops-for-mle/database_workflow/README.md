@@ -48,6 +48,7 @@ docker rm --force postgres-server data-generator
 docker compose up -d
 ```
 ```bash
+docker exec -it data-generator /bin/bash
 PGPASSWORD=mypassword psql -h postgres-server -p 5432 -U myuser -d mydatabase
 
 ```

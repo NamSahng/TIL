@@ -57,10 +57,10 @@ def insert_data(db_connect, data):
 
 
 def generate_data(db_connect, df):
-    # while True:
-    for i in range(10):
+    while True:
+    # for i in range(10):
         insert_data(db_connect, df.sample(1).squeeze())
-        time.sleep(1)
+        time.sleep(100)
 
 
 if __name__ == "__main__":
