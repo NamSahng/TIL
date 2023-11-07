@@ -6,7 +6,7 @@ server:
 
 server-clean:
 	docker compose down -v
-	docker rmi -f part6-api-with-model
+	docker rmi -f api_serving_api-with-model
 
 dependency:
 	make -C ../database_workflow/ server
