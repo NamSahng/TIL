@@ -60,7 +60,7 @@ def generate_data(db_connect, df):
     while True:
     # for i in range(10):
         insert_data(db_connect, df.sample(1).squeeze())
-        time.sleep(100)
+        time.sleep(3)
 
 
 if __name__ == "__main__":
