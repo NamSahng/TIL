@@ -25,3 +25,9 @@ $ PGPASSWORD=mypassword psql -h postgres-server -p 5432 -U myuser -d mydatabase
 - Panel
     - Dashboard 안에 포함되어있는 차트를 의미.
     - 차트 제목, 차트 종류, 데이터 소스와 쿼리 등을 설정 가능.
+
+```bash
+$ docker compose -p part8-dashboard -f grafana-docker-compose.yaml up -d
+$ docker compose -p part8-dashboard down -v
+$ make dependency-clean
+```
